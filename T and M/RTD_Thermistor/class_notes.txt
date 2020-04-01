@@ -1,0 +1,31 @@
+## 150 in bentley and 282 in nakra
+## PTC and NTC(Semiconducting material)
+PTC: positive temp co-efficient , NTC : negative temp co-efficient
+
+PTC used in fuse etc. and NTC finds in measurement
+NTC is more usefull to ICE
+Eq 8.2 and Eq 8.3 describes the behaviour of NTC thermistor 
+
+the variation is exponential for RTD which makes the device more non-linear.
+all the shapes on bentley pg 151.
+comparision between thermistor and RTD given on page 283
+comparision between them is also based on sensitivity.
+nakra has shown that thermistors are 10 times more sensitve to RTD.
+see that derivation
+##there beta is material constant and normall around 3000-4000k
+##other one is R_Not which is also material constant
+Also since the device is non linear it will required means and methods for its linearization
+To in the equation is value at room temp or any other ref
+R0 is resistance at temprature T0
+on page 255 of pdf see 9.3 question
+in fact both 9.3 and 9.4 both
+##to be done in homework
+also thermistor may be put with op-amp to make question 
+but the basic idea is change of R with Temp.
+As long as we understand this and the governing equation rest is all math and circuit.
+This completes our thermistor , homework to be done 
+Next will be thermocouple .
+Next on thursday 12-1PM.
+regular class time.
+
+
