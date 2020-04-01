@@ -1,0 +1,45 @@
+##Things to do in root loci sallybus:
+1. Root locus plots ( how to make and what are they ) ## done
+2. Properties of root loci and applications ## mostly theory ( useless)
+3. Stabiliy range from root loci ##To be done 
+4. Determination of roots of closed loop system  ## done 
+5. Transient response and stability from root locus. ##to be done
+6. Effect of pole zero addition ## to be done
+7. Desired closed loop pole location ## to be done
+
+##To be done:
+Baiscally stability analysis from the root locii part is left and transient response is also left.
+
+##links
+plotting the root loci graph using :
+
+
+
+## http://www.mee.tcd.ie/~sigmedia/pmwiki/uploads/Teaching.3C1/root_locus.pdfwhat is root locus techniques?
+Root locus techinuque is a graphical way of representing how might the root of system change , on chanching
+a specific parameter in the system , for eg gain etc .
+
+## why it is used for?
+This technique is used as a stability criteria of a system in the field of classical control theory.
+
+## what does it consist of?
+It is basically consisiting of a complex s plane which contains the closed loop poles of the system.
+The points that are part of the root locus, satisfy certain conditions.
+
+##some basic truths:
+T(S) = G(S)/ 1 + G(S)*H(S)
+
+To find the roots of the system the characteristic equation will be G(S)*H(S) = -1
+
+In system without delay:
+
+G(S)*H(S) = K * (  (s+z1)(s+z2)(s+z3)... ) / ((s+p1)(s+p2)....)
+
+z1,z2,z3 are the zeroes of the system 
+and p1,p2,p3 are the poles of the sytem
+
+
+
+#angle condition 
+#feedback condition
+
