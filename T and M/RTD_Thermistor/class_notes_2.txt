@@ -1,0 +1,282 @@
+1:53 AM
+Class 2 2nd April 2020
+
+
+1:56 AM
+So far only 21 let me wait few minutes more
+
+
+2:00 PM
+Great going 40
+
+
+2:03 PM
+any body else 44, this forms the final count for today
+
+
+2:04 PM
+ok shall we start
+
+
+2:04 PM
+Last time thermistor was done, how you could solve the given numerical
+
+
+2:05 PM
+Last time thermistor was done, hope you could solve the given numerical
+
+
+2:06 PM
+Today we need to discuss Thermocouple
+
+
+2:06 PM
+Page 164 Bentley
+
+
+2:07 PM
+The associated effects are Seeback, Thomson and Peltier
+
+
+2:07 PM
+Essentially is you put two different metals together it forms a thermocouple
+
+
+2:08 PM
+Essentially if you put two different metals together it forms a thermocouple
+
+
+2:09 PM
+You need to study page 164, 165 -169 of Bentley, ok
+
+
+2:10 PM
+It describes how there are formed and the governing laws
+
+
+2:10 PM
+There are sensitive and complex sensors
+
+
+2:10 PM
+Conditioning is comples
+
+
+2:11 PM
+complex
+
+
+2:12 PM
+The voltage developed across junction is very low uV and therefore handling of theis is complex
+
+
+2:13 PM
+Carefully you need to understand the law of intermediate metals and law of intermediate temperature
+
+
+2:14 PM
+law of intermediate metals states that you can insert another metal in the loop and measurements are not affected as long as the temp of the two new junctions are same.
+
+
+2:17 PM
+Also it allows you to deduce emf of AB thermocouple as AC thermocouple + CB thermocouple .
+
+
+2:18 PM
+means we can introduce another junction between the existing one
+
+
+2:18 PM
+Is it clear
+
+
+2:18 PM
+see Fig. 8.9 page 165 Bentley
+
+
+2:19 PM
+Law 2 and 3 you need to understand
+
+
+2:20 PM
+Law two you introduce a metal C in A branch and both terminal at T3 temp, so measurements are not effected as long as the temp is same either side
+
+
+2:22 PM
+law of intermediate metals can be used, for example, to deduce the e.m.f.
+
+
+2:22 PM
+Normally questions are framed from this basis
+
+
+2:23 PM
+So AB = AC + CB or AB = AC - CB be careful
+
+
+2:24 PM
+I mean the polarity of the emf may change as per the ref
+
+
+2:24 PM
+further ET1,T2 = ET1,T3 + ET3,T2
+
+
+2:25 PM
+forms the law of intermediate temp
+
+
+2:25 PM
+Is that right?
+
+
+2:26 PM
+Also read Table 8.2 , page 168 Bent
+
+
+2:27 PM
+Here different combinations of metals, their industrial designation J K etc and useful range has been given
+
+
+2:28 PM
+For example Type J thermocouple is formed by Iron and Constanton
+
+
+2:29 PM
+Range0o to 300DegC
+
+
+2:29 PM
+Range 0 to 300DegC
+
+
+2:30 PM
+Yes it allows you to understand the capability of different thermocouples
+
+
+2:31 PM
+For which device?
+
+
+2:32 PM
+Sorry for Iron Constantan the range is 0 to 500
+
+
+2:33 PM
+Bentley very first entry
+
+
+2:33 PM
+Type J
+
+
+2:34 PM
+Nakra gives a different number, no problem is also depends on the wire guage which usually some books will not pay attention to.
+
+
+2:35 PM
+Read Nakra also Page 284-288
+
+
+2:36 PM
+Normally useful data is provided
+
+
+2:37 PM
+Solve Example 12.4 of Nakra on page 288
+
+
+2:38 PM
+Also during usage of the device, we have two junctions
+
+
+2:38 PM
+One called Cold and another Hot junction
+
+
+2:39 PM
+Cold means a reference which is kept at constant throughout measurement
+
+
+2:39 PM
+Hot means where the input temp to be measured is applied
+
+
+2:40 PM
+You will see these terms used frequetnly in questions
+
+
+2:41 PM
+Having done few numerical it should be clear
+
+
+2:42 PM
+Do unsolved 12.5 of Nakra, 8.7 of Bentley
+
+
+2:43 PM
+Also you have earlier two more numerical to be done
+
+
+2:45 PM
+Any query?
+
+
+2:46 PM
+Pyrometry
+
+
+2:47 PM
+Section 12.6 Nakra
+
+
+2:47 PM
+These are used for very high temp measurement
+
+
+2:47 PM
+few thousands deg C
+
+
+2:48 PM
+Like radiating bodies, sun furnance etc.
+
+
+2:48 PM
+Basic is as follows
+
+
+2:49 PM
+They focus the radiation on a filament whose color is controlled with the help of current passing through it. When the filament and the radiation have same color it is treated at the same temp
+
+
+2:50 PM
+See Fig. 12.13 Nakra page 291
+
+
+2:51 PM
+Yes all the numerical form the assignment and are to be submitted on the mail as your roll number the file name
+
+
+2:52 PM
+Can you study the Pyrometer from Nakra?
+
+
+2:52 PM
+All?
+
+
+2:55 PM
+Shall we proceed further?
+
+
+2:55 PM
+Hello
+
+
+2:57 PM
+Yes
+
+
+2:58 PM
+Shall we close for today
