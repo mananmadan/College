@@ -19,6 +19,7 @@ DCS :: Assgihnment on Digital Logic Families.
 So what is happening in DCS is that mam have done most of the numerical part earlier
 and is now doing the theory part.
 Here what I have to do is Flip - Flop and Digital Logic Families.
+##Digital Logic Families:: =======> RTL,DCTL,TTL,ECL logic families.
 
 ##How will I write the notes::
 
@@ -27,13 +28,18 @@ Here what I have to do is Flip - Flop and Digital Logic Families.
 and links.
 
 I think google docs + xournal should work.
+##assighnments::
+2/04/2020 :: Maths , T and M
+3/04/2020 :: DCS
+Monday :: Industrial Electronics
 
+##Today
+1. Finish T and M tommorow
+2. Then finish digital logic desighn families.
+3. Maths 
 
-##Tommorow
-Finish T and M tommorow
-Most probably only that class is happening only.
-Then finish digital logic desighn families.
-and should do some control also.
+Sunday and Saturday --> Industrial electronics
+
  
 
 
