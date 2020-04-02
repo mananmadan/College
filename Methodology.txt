@@ -32,6 +32,9 @@ I think google docs + xournal should work.
 2/04/2020 :: Maths , T and M
 3/04/2020 :: DCS
 Monday :: Industrial Electronics
+Tuesday :: DCS assighnment
+Thursday :: Maths
+
 
 ##Today
 1. Finish T and M tommorow
