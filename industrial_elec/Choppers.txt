@@ -1,0 +1,20 @@
+##What are choppers??
+
+They are DC-DC convertors , also known as buck convertors,
+they are different from transformers as transformers have only fixed value of coil
+rotations due to which they are restricted after construction in the amount of the 
+voltage that can step down .
+
+##So
+Step down choppers --> buck converters 
+Step up choppers --> boost convertors.
+
+Two quadrant are basically class b and class c choppers.
+class e chopper will be foind
+
+Voltage and current commuted chopper --> Learn and Grow youtube vedios.
+Jones and Morgan chopper
+
+2 numericals on chopper to do.
+
+

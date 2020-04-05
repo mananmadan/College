@@ -29,9 +29,9 @@ and links.
 
 I think google docs + xournal should work.
 ##assighnments::
-2/04/2020 :: Maths , T and M
-3/04/2020 :: DCS
-Monday :: Industrial Electronics
+2/04/2020 :: Maths , T and M(Done)
+3/04/2020 :: DCS(Done)
+Monday :: Industrial Electronics 
 Tuesday :: DCS assighnment
 Thursday :: Maths
 
@@ -42,7 +42,8 @@ Thursday :: Maths
 3. Maths 
 
 Sunday and Saturday --> Industrial electronics
-
+Sunday ==>Industrial Electronics.....
+##Industrial Electronics.....
  
 
 
