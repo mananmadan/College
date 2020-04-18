@@ -1,0 +1,11 @@
+##Capacitive sensing elements from bentley.
+##Inductive sensing element from bentley.
+##Maybe do mechanical sensing element from bentley
+
+
+##LVDT
+##Thermistor
+##RTD
+##Thermocouple
+##Pyrometer
+

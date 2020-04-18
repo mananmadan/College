@@ -1,0 +1,245 @@
+:07 PM
+So far only 40, shall we proceed
+
+
+:08 PM
+Open page 160 of Bentley
+
+
+:09 PM
+see Fig. 8.5
+
+
+:10 PM
+It describes several configurations wherein one can change capacitance of the device
+
+
+:11 PM
+If C can be changed and we can put the device in a circuit say bridge, measurement can be done
+
+
+:12 PM
+First three configurations are easy to follow
+
+
+:13 PM
+Also see carefully the related equations 8.12 and others
+
+
+:14 PM
+Variable separation displacement sensor
+
+
+:15 PM
+Variable area displacement sensor
+
+
+:15 PM
+Variable dielectric displacement sensor
+
+
+:16 PM
+Next is Capacitive pressure sensor
+
+
+:17 PM
+Differential capacitive displacement sensor forms a unique configuration
+
+
+:18 PM
+This could be used in adjacent branches of the bridge leading to some useful results
+
+
+:19 PM
+No
+
+
+:20 PM
+Other two sensors are level and Humidity
+
+
+:21 PM
+Humidity sensing is an important component of weather forecasting
+
+
+:22 PM
+I would expect all the simple derivations to be done you
+
+
+:23 PM
+Have a look in Nakra Fig. 418
+
+
+:24 PM
+It shows how the sensor is used in bridge
+
+
+:25 PM
+NO
+
+
+:25 PM
+Example 4.1 Nakra to be done
+
+
+:29 PM
+As assignments solve 8.3 of Bentley, 4.3 Nakra,
+
+
+:30 PM
+Also remember both the books have answered to the questions, Bent these are given at the end
+
+
+:32 PM
+also watch the nptel link on this topic as 1.
+h
+:34 PM
+I have prepared a topicwise NPTEL link for you as listed below.1. https://youtu.be/Z6evuxYjYMs : Units and Basics
+
+2. https://youtu.be/dcdz9F2oXSw:
+Functional Elements
+
+3. https://youtu.be/IQ-nDcwr7MwU:
+Classification
+
+4. https://youtu.be/9gTBlFrEYkk:
+Static Characteristic
+
+5. https://youtu.be/DdzFKnwMuoo:
+Static Characteristic
+
+6. https://youtu.be/SEYi2yTcTIU:
+Loading Effect
+
+7. https://youtu.be/OGwPSTGl_Ec:
+Statistical Analysis
+
+8. https://youtu.be/uNTNj66vdro:
+Least Square Method
+
+9. https://youtu.be/akAHw6i_ZoE:
+Uncertainty Analysis
+
+10.
+https://youtu.be/5Jt-hh3wZvo:
+Problem Solving-1
+
+11.
+https://youtu.be/3SUM3MWRN6c:
+Generalized Model
+
+12.
+https://youtu.be/ReT6cxcSJaw:
+Zero and First Order
+
+13.
+https://youtu.be/hKYd0zQwxfQ:
+Step Response-I
+
+14.
+https://youtu.be/k7zJqYHkLr0:
+Ramp Response-I
+
+15.
+https://youtu.be/4giGOrH0fUM:
+Impulse Response-I
+
+16.
+https://youtu.be/SkWYSDBuRug:
+Frequency Response-I
+
+17.
+https://youtu.be/IklQ_R5sPoE:
+Step Response-II
+
+18.
+https://youtu.be/QWgrBAoh69I:
+Step Response-II
+
+19.
+https://youtu.be/YXprqThJnSM:
+Ramp Response-II
+
+20.
+https://youtu.be/Pt8Xd2tu8WE:
+Impulse & Frequency-II
+
+21.
+https://youtu.be/pZj4QtTY3iw:
+Higher Order System
+
+22.
+https://youtu.be/L7F1QtgCsYM:
+Compensation
+
+23.
+https://youtu.be/rTuNUNMhf7I:
+Transducers-1
+
+24.
+https://youtu.be/Y0w3onIzh8I:
+Transducers-2
+
+25.
+https://youtu.be/dBMKEwsUT8A:Temperature-1
+
+26.
+https://youtu.be/cj4LZgyY8nw:
+Temperature-2
+
+27.
+https://youtu.be/vVdt1nkxIlU:
+Strain Guage
+
+28.
+https://youtu.be/5haUAsPI76Q:
+PZT
+
+29.
+https://youtu.be/T4ZS2GTsL-k:
+Pressure
+
+30.
+https://youtu.be/BWE0B9NloB0:
+Force – Strain Gage
+
+31.
+https://youtu.be/5hl2jpmYo0w:
+LVDT, Capacitive
+
+32.
+https://www.coursera.org/lecture/semiconductor-physics/hall-effect-nLDzU: Hall Effect
+
+33.
+https://www.youtube.com/watch?v=rwlZcuqqkM4: Hot wire Anemometer
+
+
+:35 PM
+These are good information on the topic of our interests
+
+
+:36 PM
+Also the assignments are to be submitted in a time bound manner
+
+
+:40 PM
+Handwritten papers may be scanned/compiled as a single pdf files and submitted to kpsrana@nsut.ac.in by this Friday for all the assignments till date. The file name shall be your roll number last four digit.
+
+
+:40 PM
+We will also create some kind of testing as well.
+
+
+:42 PM
+Could you get the link as mentioned above topicwise.
+
+
+:44 PM
+I am sure you will find these very useful
+
+
+:45 PM
+Kindly watch as your convenience, doubts , if any, we can take up in following classes
+
+:46 PM
+Next topic shall be the LVDT

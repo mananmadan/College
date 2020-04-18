@@ -29,12 +29,10 @@ and links.
 
 I think google docs + xournal should work.
 ##assighnments::
-2/04/2020 :: Maths , T and M(Done)
-3/04/2020 :: DCS(Done)
-Monday :: Industrial Electronics 
-Tuesday :: DCS assighnment
-Thursday :: Maths
 
+Wednesday :: no ass.. (Do maths) as DCS can be copy pasted..
+Thursday :: Maths,DCS
+Friday :: T and M
 
 ##Today
 1. Finish T and M tommorow

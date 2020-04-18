@@ -1,0 +1,137 @@
+1:07 AM
+So far only 44, does it form the attendance
+
+1:09 AM
+we shall refer Bentley make it ready
+
+1:12 AM
+Refer section 8.3
+
+1:12 AM
+Inductive sensing elements
+
+1:14 AM
+You would have studied equivalence between electrical and magnetic circuits, this section start similar
+
+1:15 AM
+go through till eqs 8.30
+
+1:16 AM
+Self-inductance of a coil can me computed from reluctance
+
+1:17 AM
+Based on this Variable reluctance elements are designed and used for various measurement
+
+1:19 AM
+A small variation in air gap causes a measurable change in inductance so that we have the basis of an inductive displacement sensor.
+
+1:20 AM
+Refer Fig. 8.11, various configurations
+
+1:21 AM
+Differential or push/pull reluctance displacement sensor is of importance
+
+1:23 AM
+go through all the derivation and understand
+
+1:27 AM
+any query?
+
+1:29 AM
+Can you derive the results of Differential reluctance displacement sensor
+
+1:29 AM
+why"
+
+1:30 AM
+any particular issue
+
+1:30 AM
+Arya?
+
+1:31 AM
+Yes very much
+
+1:31 AM
+Read the book line by line, it is simple
+
+1:33 AM
+Fine, read the para after eq. 8.37
+
+1:33 AM
+Even this you should be able to implement
+
+1:34 AM
+basically incorporate the sensor into the bridge and derive the final voltage o/p which is bound to be linear
+
+1:35 AM
+Next is LVDT
+
+1:36 AM
+Linear Variable Differential Transformer (LVDT) displacement sensor
+
+1:36 AM
+Section 8.3.2
+
+1:37 AM
+Basically it is a three coils transformer
+
+1:37 AM
+This sensor is a transformer with a single primary winding and two identical secondary windings wound on a tubular ferromagnetic former (Figure 8.12).
+
+1:38 AM
+two secondaries are connected in series opposition
+
+1:39 AM
+Figure 8.12 shows LVDT and connections to phase-sensitive detector.
+
+1:40 AM
+Input is x as can be observed in this fig, x being a displacement
+
+1:41 AM
+Observe the connections of two secondaries
+
+1:41 AM
+two secondaries are connected in series opposition
+
+1:42 AM
+when the armature is symmetrical to both the secondaries (x=0) the output shall be zero
+
+1:42 AM
+is that right
+
+1:43 AM
+input x is applied to the core/armature
+
+1:43 AM
+this is a passive sensor
+
+1:44 AM
+I have also given a NPTEL link for this yesturday
+
+1:45 AM
+Also have a look on Fig. 8.13 wherein the different waveforms are given for the voltages
+
+1:46 AM
+remember the out of phase responses for two secondaries
+
+1:48 AM
+See Figure 8.14 A.C. and D.C. characteristics of LVDT.
+
+1:51 AM
+Following is the assignment
+
+1:51 AM
+1)
+A1:52 AM
+To be submitted by this Friday
+
+1:53 AM
+Hope is is clear
+
+1:53 AM
+Shall we close
+
+1:53 AM
+Bye
+
