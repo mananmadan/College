@@ -1,0 +1,4 @@
+- Sucess of bussiness largely depends upon their early employees
+- Vision and Mission
+  - "Where the company want to be in long run"
+- Vision actually set the mission

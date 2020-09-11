@@ -1,0 +1,33 @@
+## Table of Contents
+
+- What are crisp set and fuzzy sets?
+- Eg. on fuzzy sets
+- Operations on crisp sets
+  - Intersection
+  - Union
+  - Compliment
+- Operations on fuzzy sets
+  - Intersection -> (Min(a,b))
+  - Compliment -> (1-a)
+  - Union -> (Max(a,b))
+- Properties of sets
+  - Associativity  = A U (B U C) = (A U B) U C
+  - Commutavity ==> A U B = B U A
+  - Distributivity ==> A U (B U C) = (A U B) U (A U C) 
+  - Idempotency ==> A U A = A
+- Membership Function
+  - Defination
+  - Shape of the membership function
+- Representation of Fuzzy Sets
+
+- Crisp Relations
+- Cartesian Product Method to obtain all the relations
+- Fuzzy Relations
+  - Since Fuzzy Relations are represented as fuzzy sets , we can apply fuzzy operations on it
+- Operations on Relations 
+ - Intersection
+ - Union
+ - Compliment
+ - Containment
+ - Sum
+ - Scalar Product

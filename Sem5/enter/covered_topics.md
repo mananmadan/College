@@ -1,0 +1,6 @@
+- Intrapeneurship
+- Use innovation for enteurpeneurship
+- Creative Destruction
+- New innovations disrupt the market , and leave the market
+- "if we don't create something that kill facebook something else will"
+- Enterpenuership is based on innovation

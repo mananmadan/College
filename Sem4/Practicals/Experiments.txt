@@ -1,0 +1,64 @@
+1. Torque speed characteristics and determine the transfer function of a dc motor
+long would take time!..
+2. study the 1st order electrical system by --> obtaining step response 
+                                            --> obtaining frequency response of a typical first order system 
+short , revise 1st order system ..
+3.performance characteristics of angular position error detector using 2 potentiometer
+
+* Basically, we have to find things like linearity in this system ...
+Here what we have to do is vary the angles of the potentiometer then measure the voltage , difference obtained and thus we can check the linearity and get to as how much is the error in leniarity of the device.
+
+* We can do this same thing using also ac exiitation and after that using a de-modulator and hence find out the error in that too.
+
+4. study perfmance of various types od controller used to control temprature of an oven 
+(have to revise steady state error , and stability parameters of a controller)
+(basically trying out best controller for the identification of a particular plant)
+
+
+
+5. For each of the second order systems below , find e,wn,Ts,Tp,Tr,%over-shoot and plot the step response using matlab
+revise second order system ....
+
+6. Determine the closed-loop step response using MATLAB
+see if taught close loop .... step respose
+
+7. Plotting Niquist Plot 
+revise and study niquist plot ...
+
+8. Plotting root locus and bode plots.
+revise and study root locus and bode plots ...
+
+Basic Theory Rivision:
+ First Order System:
+1.  C(s) =  1
+    ----  -----
+    R(s)  1 + sT
+
+now according to the input we can put the value of R(s)
+> R(s) = 1/s for unit step input
+> R(s) = 1/s^2 for unit ramp input
+2. To calculate in terms of time we can but s=jw and calculate the amplitude 
+and then put w = 2*pi*T to calculate the values.
+
+
+ Second Order System:
+1. C(s)     wn^2
+  ------ = ----------------------------
+   R(s)    s^2 + 2*(zeta)*wn*s + wn^2
+
+where zeta is the damping factor
+and wn is the undamped natural frequency
+
+Things based on Order of the system:
+1. Steady state error ==> (C(t) - R(t)), where t--> infiniy 
+2. Delay time ==> time required to reach 50% of the final value
+3. Rise time ==> to reach from 10 to 90 of the overdamped system
+             ===> time to reach from 0 to 100 percent of the final value in under damped system
+4. Peak time ==> time required to reach the peak of the second order system 
+5. Peak Overshoot ==> the normalized difference between the peak and the steady state value
+ c(tp) - c(infinity)
+ ------------------- * 100
+  c(infinity)
+6. Settling time = time required to stay in tolerance band(maybe 2% or 5%)
+
+
