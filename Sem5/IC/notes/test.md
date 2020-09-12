@@ -1,14 +1,14 @@
 # Sallybus
-- Unsupervised Learning
- - Hebbian Learning Rule
+- Unsupervised Learning ==> (Done)
+ - Hebbian Learning Rule ==> (Done)
  - Learning Algorithm
-  - Delta Learning
-  - Widrow-Hoff Rules or LMS Rule
+  - Delta Learning ==> (Done)
+  - Widrow-Hoff Rules or LMS Rule ==> (Done)
 - Artifical Neural Networks
- - All Algorithm
- - Back Propagation
-- Radial Basis Function
- - RBFNN vs MLFNN
+ - All Algorithms
+  - Back Propagation
+- Radial Basis Function ==> (Done)
+ - RBFNN vs MLFNN ==> (Done)
 - Feedback Networks
  - RNN
  - FCRNN

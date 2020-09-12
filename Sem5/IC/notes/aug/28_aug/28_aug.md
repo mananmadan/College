@@ -11,6 +11,7 @@
   - Verification is to be done in the testing set
 
 ## Radial Basis Function Networks
+- [rbf_tutorial](https://mccormickml.com/2013/08/15/radial-basis-function-network-rbfn-tutorial/)
 - Hidden Units are called radial centres
 - Tranformation from input to hidden is non-linear
 - Transformation from hidden to output is linear
