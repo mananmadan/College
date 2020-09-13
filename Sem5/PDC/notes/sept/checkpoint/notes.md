@@ -91,3 +91,100 @@ Input--->|Process|--->Output
 
 ## First Order System
 - Those system that changes wrt to the first order
+- ![first_ord](first_ord.jpg)
+
+### Step Input Response
+- First order transfer function is
+  - **Main Formula**
+  - G_p(s) = Y(s)/X(s) = K_p/(T_p*s + 1)
+- ![stp_rep](stp_rep.jpg)
+- Then do partial fractions
+- Taking inverse laplace
+  - and get the formula in the time format
+  - and get the response
+- ![inv_lp](inv_lp.jpg)
+
+### Steady State Gain(Kp)
+- time t = Tp
+- y(t)|t=tp  = AKp(1-e^(-1))
+- y(t)|t=tp = 0.632 * y(t)|t->inf
+- ![kp](kp.jpg)
+
+### Time Constant(Tp)
+- time taken by the process to reach 63.2% of the ultimate value of the response(UVR)
+- ![prop](prop.jpg)
+
+### Impulse and Ramp Input Response of a first order system
+
+### Sinosoidal Input Response of a first order system
+- Y(s) = (Kp/(Tp*s+1)) * (Aw/(s^2 + w^2))
+- ![sin_ip](sin_ip.jpg)
+- the e_(-t/tp) factor decays
+- if then the term can be written in be sin form
+- ![sin_sin](sin_sin.jpg)
+- There is a phase lag in it
+  - The output magnitude will decrease
+  - and there will be a phase lag in the input
+
+- Prop
+  - We can find the amplitude ration in this thing
+  - Phase difference
+
+### Example of the first order system
+- Balancing the hieght of the system to be a particular order
+  - ![tnk_fo](tnk_fo.jpg)
+  - Now arrange the equation in the form of time equation , by taking the inverse laplace 
+  - Compare this to the equation of the first order system and take the values of to form the general transfer function of the system
+  - ![tnk_tf](tnk_tf.jpg)
+
+### Purely Capacitive System
+
+## Second Order System
+- Any system that we can model with the help of second order system
+- Terms 
+  - zeta : damping factor
+  - tp : Natural Period of oscillations
+  - Kp : ss gains
+
+- Transfer function of the second order systems
+  - ![tf_se](tf_se.jpg)
+
+## Step Response
+- Nature of the step response of the system
+  - zeta > 1 ==> overdamped system (exponential)
+     - poles are real but unequal
+  - zeta == 1 ==> critically damped
+     - poles are real and equal
+  - zeta < 1 ==> underdampes
+     - roots are complex conjugate
+
+- **zeta** means the **Resistance** offered by the system
+- if zeta is more the system is more sluggish
+- if zeta is less the system is fast
+
+### Inherently Second Order Systems
+- ![eg_sec_ord](eg_sec_ord.jpg)
+
+
+### Properties of the under damped system
+- ![underdamped_res](underdamped_res.jpg)
+
+- Overshoot
+  - ![overshoot](overshoot.jpg)
+
+- Decay Ratio
+  - ![decay_ratio](decay_ratio.jpg)
+
+- MVR (Maximum Value of response)
+   - ![mvr](mvr.jpg)
+
+- Period of Oscillation
+   - ![poo](poo.jpg)
+
+- Natural Period of Oscilation
+  - ![npoo](npoo.jpg)
+
+- Rise Time
+  - ![rise](rise.jpg)
+  - Variation of rise time with the zeta
+  - ![zeta_ris](zeta_ris.jpg)
