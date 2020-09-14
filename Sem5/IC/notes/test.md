@@ -10,14 +10,14 @@
 - Radial Basis Function ==> (Done)
  - RBFNN vs MLFNN ==> (Done)
 - Feedback Networks
- - RNN
+ - RNN ==> Done
  - FCRNN
  - Partially Connected(PCRNN)
  - Time Delay Network
- - Back Propagation on Feedback Networks
+ - Back Propagation on Feedback Networks ==> Done
 - Learning Algorithms
+ - BPTT (Back Propagation Through time) ==> Done
  - RTRL (Real Time Recurrent Learning)
- - BPTT (Back Propagation Through time)
 - Kohonen Self-Organising Map (SOM)
  - Learning Algorithms on SOM
 - Topology
