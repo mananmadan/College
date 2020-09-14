@@ -20,3 +20,18 @@
 - One element will be R1a * C1b
 - Another element in the row will be R1a * C2b
 - ![max_minsol2](maxminsol2.jpg)
+- matrix
+  - [0.4 0.2 0.3]
+    [0.3 0.3 0.3]
+    [0.8 0.9 0.8]
+- mapping (sagitel diagram)
+- ![mapping](mapping.jpg)
+
+## Prob2
+- ![prob2](prob2.jpg)
+
+## FInding relations using the cartesion product
+- ![fuzzy_cartesion](fuzzy_cartesion.jpg)
+
+## Chain stength analogy for max-min composition
+- ![chain_strength](chain_strength.jpg)
