@@ -32,14 +32,15 @@
 ### Solution to the linear model
 - The linear state space model x_dot(t) = Ax(t)
 - Solution of this model is 
-- x(t) = e^At(xo)<-- initial state of the sytem
+- x(t) = e^At(x(0))<-- initial state of the sytem
 - e^At is called the state transition matrix as it _transfers the state of the system at x(0) and makes it to be x(t)_
 ### In case of the non-linear model
 - The solution of the model will also have a forces solution part due to the presence of the control vector
 
-## Controllability and Observability
-### Controllability
-- Draw the controllability matrix
-C = [A AB A^2B ....]
-- Rank of this matrix should be equal to the number of state variables N
-### Observability
+
+### Controllability and Observability notes in ipad
+
+## Links
+- [canonical](https://www.mathworks.com/help/control/ug/canonical-state-space-realizations.html)
+- [Jordan Form](https://www.mathworks.com/help/symbolic/jordan-canonical-form.html)
+- [transfertoss](https://www.mathworks.com/help/signal/ref/tf2ss.html)

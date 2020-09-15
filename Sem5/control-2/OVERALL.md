@@ -18,7 +18,8 @@
 ### Canonical Forms
 - The state variables are transformable
 - Conversion of the transfer function to the canonical state variables
- - Simple Canonical Form
+ - First Companioin Form
+ - Second Companion Form
  - Jordan Canonical Form
 
 ### Controlability and Observability
