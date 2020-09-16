@@ -14,8 +14,8 @@
 - find relation b/w a and c using max min composition
 
 ## Max-min composition
-- ![min_max](maxmin.jpg)
-- ![maxminsol](maxminsol.jpg)
+- ![min_max](minmax.jpg)
+- ![maxminsol](maxmin_sol.jpg)
 - Here the resultant matrix will be A* C of order  3*3
 - One element will be R1a * C1b
 - Another element in the row will be R1a * C2b

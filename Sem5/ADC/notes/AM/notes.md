@@ -8,7 +8,7 @@
   - if you break it you will get a sum of the carier signal and modulated signal
 
 ### Disadvantage
-- Bandwith of the amplitude modulated signal = 2 * bandwodth of the message signal
+- Bandwith of the amplitude modulated signal = 2 * bandwidth of the message signal
  
 ### Single Tone and Multi Tone Modulation
 - Single Tone Modulation
@@ -53,13 +53,27 @@
   - ![gen_Am](gen_Am.jpg)
   - ![fin_Am](fin_Am.jpg)
 
-### Sqaure Law Demodulator
-- Sqaure Law Device
+### Square Law Demodulator
+- Square Law Device
 - LPF
 - Sam(t) --> SLD --> LPF --> m(t)
-- We would sqare it again and will get the ans
+- We would square it again and will get the ans
 
+**INTUITION : Carrier takes up 66.7% of energy of transmision even if the message is modulated at 100% , hence we want to be able to use other signal in order to reduce the energy wasted by the signal**
+-> Thus we have the double side band suppressed carrier
 
-### Part Left
--> DSB-SC
--> SSB-SC
+### DSB-SC
+- Intro
+  - We will only transmit the USB and the LSB
+  - We will not pass the carrier wave
+  - Can be represented by $c(t) * m(t)$
+- Generation
+
+- Analysis
+
+- Demodulation
+### SSB-SC
+- Intro
+- Generation
+- Analysis
+- Demodulation
