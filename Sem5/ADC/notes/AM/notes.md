@@ -67,13 +67,38 @@
   - We will only transmit the USB and the LSB
   - We will not pass the carrier wave
   - Can be represented by $c(t) * m(t)$
+  - ![dsb_sc](dsb_sc.jpg)
+  - Here we do not have the impluse of A/2 magnitude as in the case of AM waves
+- Single Tone DSB-SC
+  - ![sn_dsbsc](sn_dsbsc.jpg)
 - Generation
-
-- Analysis
-
+  - Balance Modulator
+    - Use 2 AM Modulators with 180 degress phase shift
+    - It will cancel the unneccesary terms
+    - ![blnd_mod](blnd_mod.jpg)
+    - ![blnd_math](blnd_math.jpg)
+  - Simple Product Mupltiplier
+    - Bascially Just multiply $c(t) * m(t)$ 
+    - ![prod_mul](prod_mul.jpg)
 - Demodulation
+  - Synchronus Detector or Coherent Detector
+    - called "coherent" because we supply in input the a coherent carrier wave
+    - ![demod](demod.jpg)
+    - ![demod](demod_math.jpg)
+
 ### SSB-SC
 - Intro
+  - In SSB-SC we do not even transmit 2 side bands
+  - We only transmit single side band as the other one is identicle to a given band
+  - Hence we can infer that at the time of recieving
+  - ![ssb](ssb.jpg)
+  - it's general expression is $(A_c A_m)/2 * cos(2 \pi  (f_c + f_m))$
 - Generation
+  - Freq Distribution Method
+    - Multiply to generate DSB and then bass though band pass filter to get the SSB signal
+    - ![freq_dis](freq_dis.jpg)
+    - ![freq_dis_mths](freq_dis_mths.jpg)
 - Analysis
+  - FLAG101
 - Demodulation
+  - FLAG101
