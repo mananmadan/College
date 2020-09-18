@@ -18,7 +18,4 @@
 - Learning Algorithms
  - BPTT (Back Propagation Through time) ==> Done
  - RTRL (Real Time Recurrent Learning)
-- Kohonen Self-Organising Map (SOM)
- - Learning Algorithms on SOM
-- Topology
- - 1-D SOM Learn 2-D Topology
+
