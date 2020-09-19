@@ -3,12 +3,12 @@
 
 ## Intro
 - We say here that the general formula for the signal is Acos(theta(t))
-- At any point the wi = d theta / d t
+- At any point the wi = d $\theta$ / d t
 - ![how](how.jpg)
-- Hence **instantaneous frequency** is given by fi = d theta/(2 * pi * dt)
+- Hence **instantaneous frequency** is given by fi = $d \theta/(2 * \pi * dt)$
 - Further you can write the equation as 
-  - A cos( 2 * pi * f * t  + theta_c)
-  - so we can vary frequency and theta_c
+  - A cos($2 * \pi * f * t  + theta_c$)
+  - so we can vary frequency and $theta_c$
 
 - So we have FM and PM ( Phase modulation)
 
