@@ -42,10 +42,10 @@
 ### Multiplication
 
 - MUL
- - For multiplying unsighned numbers
+  - For multiplying unsighned numbers
 
 - IMUL
- - For multiplying sighned numbers
+  - For multiplying sighned numbers
 
 **8 bit * 8 bit**
 - By default the multiplication of the numbers is 8 bit by 8 bit
@@ -56,8 +56,8 @@
   - Then AL will be multiplied by BL and the result will be stored in AX
 
 - What about flags?
- - Carry Flag
- - Overflow Flag
+  - Carry Flag
+  - Overflow Flag
 
 ### Division
 
@@ -75,9 +75,9 @@
 - (DAS) ==> Decimal Adjust after subtraction
 
 - DAA
- - It always follows ADD or ADC instruction to adjust the result into a BCD number
+  - It always follows ADD or ADC instruction to adjust the result into a BCD number
 - DAS
- - It always follows a SUB or SBB instruction to adjust the result into a BCD number
+  - It always follows a SUB or SBB instruction to adjust the result into a BCD number
 
 - ASCII?
 
@@ -85,13 +85,13 @@
 ## Logical Instructions
 
 - List
- -  AND
-  - Each bit of source 4 & destination are anded together
- -  OR
- -  XOR
- -  NOT
- -  TEST
- -  NEG
+  -  AND
+    - Each bit of source 4 & destination are anded together
+  -  OR
+  -  XOR
+  -  NOT
+  -  TEST
+  -  NEG
 
 
 ## Shift and Rotate Instructions
