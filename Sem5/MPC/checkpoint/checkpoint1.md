@@ -5,27 +5,27 @@
 ## Arithemetic Instructions
 
 - ADD
- - ADD AX,BX ===> Register Addition 
- - AX = AX + BX
- - Various Types Add Can be used
- - Immediate Addn
- - Flags Affected ( By arith and Logical Instructions)
- - **Notes** -> We don't have a direct command to add 2 memory location
+  - ADD AX,BX ===> Register Addition 
+  - AX = AX + BX
+  - Various Types Add Can be used
+  - Immediate Addn
+  - Flags Affected ( By arith and Logical Instructions)
+  - **Notes** -> We don't have a direct command to add 2 memory location
 
 - INC
- - INC AX
- - content of AX will be increased by 1
- - eg ( add [NUMB] and [NUMB+1] using INC)
- - MOV AX,[NUMB]
- - INC [NUMB]
- - MOV BX,[NUMB]
- - ADD AX,BX
+  - INC AX
+  - content of AX will be increased by 1
+  - eg ( add [NUMB] and [NUMB+1] using INC)
+  - MOV AX,[NUMB]
+  - INC [NUMB]
+  - MOV BX,[NUMB]
+  - ADD AX,BX
 
 - ADC
- - Add with carry
- - ADC AX,BX
- - AX = AX + BX + C
- - Here the C flag is used
+  - Add with carry
+  - ADC AX,BX
+  - AX = AX + BX + C
+  - Here the C flag is used
 
 - SUB - (Subtraction)
   - AX = AX - BX
