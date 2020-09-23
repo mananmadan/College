@@ -36,13 +36,12 @@
  - Model4
 
 - In order to use these model's and the NN together
- - We will use Series Parallel and Parallel-Paraller Approaches
+ - We will use Series Parallel and Parallel-Parallel Approaches
  - Series Parallel Approach
+   - In sereis parallel output of yp'(estimated value) is dependent upon previous yp' values and input u
  - Parallel Parallel Approach
- - [CRAM] remember the advantages of series parallel over parallel paraller model
- - [CRAM] and the equations
-
-- Rote Facts
+   - Whereas in this approach the output of yp'(estimated value) is dependent upon previous yp values and input u:w
+- Rote Facts (Also add other facts)
  - For control we use model2
  - Identification can be done using all the models
 
