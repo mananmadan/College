@@ -19,4 +19,5 @@
 - otherwise p(x) = 0
 - so the expectation will be
   - 2^a + 2^(a+1) + 2^(a+2) .... 2^(b) / (b-a+1)
-
+- Variance = E[$x^2$+$u^2$ - $2 * x * u$]
+  - E[$x^2$] + $u^2$ + E[$2 * x * u$]
