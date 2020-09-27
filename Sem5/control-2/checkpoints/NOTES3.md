@@ -3,7 +3,7 @@
 - But in the real world plant we do not know the state x of the system
 - So in order to apply controls , we have to estimate the state x to place the poles of the system
 - The system that estimates the value of x given the controls and the output of the plant is called the **observer system**
-- ![Observer](observer.jpg)
+- ![observer](pics/observer.jpg)
 
 ## Duality
 - Let's us say the estimated state equation x'~ = Ax~ - KeCx~
