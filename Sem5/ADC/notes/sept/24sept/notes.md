@@ -28,4 +28,6 @@
 - Try to prove it
 
 ## Independece of a random variable from an event A
+
 - p(X=x and A)
+
