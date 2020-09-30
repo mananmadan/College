@@ -1,0 +1,2 @@
+- For a fuzzy set that has a value less than 1 is called a subnormal fuzzy set
+  - ![prb1](prb1.jpg)
