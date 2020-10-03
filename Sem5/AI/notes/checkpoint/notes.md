@@ -110,3 +110,9 @@
 ### Cont Fuzzy Sets
 
 ## Defuzzification
+- Methods
+  - Max Membersip Function
+     - Simply Replace the set with the max value
+  - Centroid Average Method
+     - Integral uc(x).x.dx/Intergral uc(x).dx
+  - Weighted Average Method
