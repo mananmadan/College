@@ -15,7 +15,7 @@
    - x1 -> x2 and x2->x1
 - Transitive
    - x1 -> x2 and x2 -> x3 and x3 -> x1
-- ![te_graphs](te_graphs.jpg)
+- ![te_graphs](te_graph.jpg)
 
 ## Equivalence Relations
 - If all three relations hold then it will be an equilance realtion

@@ -9,7 +9,7 @@
 - If the values > right bound
   - u(x) = 0
 
-- [membership_grph](membership_grph.jpg)
+- ![membership_grph](membership_grph.jpg)
 
 # Fuzzy Number
 - If a fuzzy set satisfies certain condition , then it will be a fuzzy number
