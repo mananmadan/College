@@ -109,6 +109,14 @@
 - Division
 ### Cont Fuzzy Sets
 
+## Fuzzy Number
+- A fuzzy number is a fuzzy set
+ - It should be convex
+ - If it's normalized
+ - It's MF is peicewise continous
+
+### Arithemetic Operation of Fuzzy No.
+
 ## Defuzzification
 - Methods
   - Max Membersip Function
