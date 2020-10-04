@@ -90,7 +90,7 @@
 ### Composition of fuzzy relations
 
 - Max Min Composition
-  - ![maxminsol](Sept/14sept/maxmin_sol.jpg)
+  - ![maxminsol](maxmin_sol.jpg)
 - Max Product Composition
   - Instead of finding the min of the values , we will multiply them
 
