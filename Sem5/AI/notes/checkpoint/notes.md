@@ -8,7 +8,7 @@
 
 - Fuzzy Set
   - Has values b/w 0 and 1
-  - not clear boundary
+  - no clear boundary
 
 
 ## Membership Function
@@ -25,11 +25,16 @@
   
 - Properties of a classical Set
   - Commutavity
+     - AUB = BUA
   - Associativity
+     - (AUB)UC = AU(BUC)
   - Distrubitivity
+     - AdisBUC = (AdisB) U (AdisC)
   - Idempotency
+     - AUA = A
   - Cardinality
     - It is the number of elements in a set nx
+    - **Cardinality of the power set of a set with nx elements in $2^nx$**
 
 ### Operations and Properties of Fuzzy Set
 
@@ -41,10 +46,26 @@
    - Intersection
       - min of both the values
 
-## Fuzzy Relations
+
+## Relations
+
+### Crisp Relations
+- The crisp relations are defined in 0 and 1
+- Relation matrix b/w 2 crisp sets can be represented as 0 is there is no relation b/w the row and the col
+- 1 if there is a relationship b/w the row and the column
+- The relationship matrix b/w the crisp relations is obtained by cartesian product itself
+
+### Cardinality of Crisp Relations
+- If the cardinality of the set1 is $n_x$ and the cardinality of set2 is $n_y$
+- Then the cardinality of the relation R b/w these 2 universes is nxy = nx * ny
+- The cardinality of the power set describing the relation is $2^(nxny)$
+
+### Fuzzy Relations
 
 - In real life the relations can be represented by fuzzy values
 - Fuzzy Relation are one kind of fuzzy set
+
+### Operations on Fuzzy Relations
    - Therefore you can apply operation on those fuzzy relation
    - Union
    - Intersection
@@ -59,10 +80,12 @@
    - Scalar Product
      - lambda * a
 
+
 ### To form relation from two fuzzy sets
 - Cartesian Product
    - Multiply the two sets and min of the values in the set
    - P[x][y] = min(u_a(x),u_b(x))
+
 
 ### Composition of fuzzy relations
 
@@ -70,6 +93,7 @@
   - ![maxminsol](/home/manan/Desktop/notes/Sept/14sept/maxmin_sol.jpg)
 - Max Product Composition
   - Instead of finding the min of the values , we will multiply them
+
 
 ### Properties of Relation Matrices
 - Reflexitivity
@@ -81,13 +105,16 @@
 - Transitivity (Fuzzy)
   - x2,x5 >= min((x2,x1) and (x1,x5))
 
+
 ### Types of fuzzy Relations
 
+- Check in the relation Matrices for these properties
 - Equivalence
   - All three relations will hold
 - Tolerance
   - Reflexivity
   - Symmetry
+
 
 ## Similarity Methods in Matrices
 - Cosine Methods
@@ -102,11 +129,13 @@
 - Whose values are strictly monotically increasing or monotically descreasing
 
 ## Arithemetic Operation
+
 ### Fuzzy Sets
 - Addition
 - Subtraction
 - Multiplication
 - Division
+
 ### Cont Fuzzy Sets
 
 ## Fuzzy Number
