@@ -13,6 +13,10 @@
 
 ## Membership Function
 - Tells about the degree of belonging in the fuzzy set
+### Features of Membership function
+- Boundry Part
+- Core Part
+- Support Part
 
 ## Operation and Properites
 ### Operations and Properties of a classical set
@@ -115,6 +119,12 @@
   - Reflexivity
   - Symmetry
 
+### $/alpha$ cuts for fuzzy relations
+- **Basically saying that if 2 elements are highly related then they are connected**
+- like defuzzification of fuzzy relations
+- certain value below which the value of the fuzzy is approximated to zero
+- above values are approximated to 1
+- thus the fuzzy set is approximated to a crisp set
 
 ## Similarity Methods in Matrices
 - Cosine Methods
@@ -147,9 +157,12 @@
 ### Arithemetic Operation of Fuzzy No.
 
 ## Defuzzification
+- It is the conversion of a fuzzy quantity to a precise quantity
 - Methods
   - Max Membersip Function
      - Simply Replace the set with the max value
   - Centroid Average Method
      - Integral uc(x).x.dx/Intergral uc(x).dx
   - Weighted Average Method
+     - Find the peak value in the set and where is the peak
+     - weighted avg = (pk1*v1 + pk2*v2 + pk3*v3)/(v1+v2+v3)
