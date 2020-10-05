@@ -96,7 +96,7 @@ Input--->|Process|--->Output
 ### Step Input Response
 - First order transfer function is
   - **Main Formula**
-  - G_p(s) = Y(s)/X(s) = K_p/(T_p*s + 1)
+  - $G_p(s) = Y(s)/X(s) = K_p/(T_p*s + 1)$
 - ![stp_rep](stp_rep.jpg)
 - Then do partial fractions
 - Taking inverse laplace

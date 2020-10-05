@@ -1,0 +1,31 @@
+[System]
+Name='Untitled'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=1
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='dirt'
+Range=[0 100]
+NumMFs=3
+MF1='mf1':'trimf',[-7.7 99.6938775510204 163]
+MF2='mf2':'trimf',[8.333 50 91.67]
+MF3='mf3':'trimf',[58.33 100 141.7]
+
+[Output1]
+Name='output1'
+Range=[0 1]
+NumMFs=3
+MF1='mf1':'trimf',[0.00102040816326526 0.993 1.98]
+MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Rules]
+1, 1 (1) : 1
