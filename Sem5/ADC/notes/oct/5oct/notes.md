@@ -25,7 +25,7 @@
 ## Moments
 - It can be derived by differentiating wrt to s at s=n 
 - If n=0 , 1st moment ie E[x]
-- $\frac{dM(s)}{ds} at s=0$ = E(x)$
+- $\frac{dM(s)}{ds} at s=0 $= E(x)$
 - $\frac{d^{2}M(s)}{d^{2}s} at s=0$ = E(x^{2})$
 - Differentiating this function helps us in getting moments , hence it is called a moment generating function
 
