@@ -45,7 +45,7 @@
 
 - Flag Reg --> Interrupt Flag
 - If this is 1 , then only the flag can be recoginised
-  - This is done by interrup controller
+  - This is done by interrupts controller
   - ![int_controller](int_controller.jpg)
 
 **NMI control is transfered is transfered at mem location at 0008-BH**
