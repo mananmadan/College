@@ -67,5 +67,8 @@ Sols
   - P Q --> C = T(P) = 1 
   - When the truth value of compound preposition C is always equal to 1
   - then it is called Tautologies
-
 - The compound prop. always true irrespective of the truth of the individual simple prop.
+- Classical logical compound prop. with this prop. are called Tautologies
+
+### Types and Uses
+- ![tp_us](tp_us.jpg)

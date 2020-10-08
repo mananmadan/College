@@ -9,3 +9,4 @@
 - K = $-\infty$ to $\infty$
 - W_s(f) = W(f) * S(f)
    - convolution
+- s(t) = $a_0 + /sum a_n cos(nw_0t) + /sum b_n sin(nw_0t)$
