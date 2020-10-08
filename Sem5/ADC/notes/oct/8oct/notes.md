@@ -1,0 +1,11 @@
+# PAM Recall
+- Representing the sampled time wave in frequency
+- The sampled time wave is $w_s(t)$
+- This is equal to $w(t).s(t)$
+- $s(t) is the clock signal$
+- ![wst](wst.jpg)
+- wst is the PAM , pulse amplitude modulated signal
+- ![st](st.jpg)
+- K = $-\infty$ to $\infty$
+- W_s(f) = W(f) * S(f)
+   - convolution
