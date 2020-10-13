@@ -14,7 +14,7 @@
 - Symbolic names will be there for varaibles , function , labels etc.
 - There a some rules for writing in assembly language
 
-## General Form - (Assembly Language)
+## General Format - (Assembly Language)
 - [name] operation [operand(s)];
 - Name
  - Naming is optional
