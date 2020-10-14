@@ -20,7 +20,12 @@
 ## Analog to digital converter
 - Paramters Revise
   - Quantatization
-  - Resoltion
+    - Finite number of steps
+  - Resolution
+    - Min Reading a device can measure
+    - Lowest value a system can recoginise or differenciate
+    - The no of bits that can be accomated into the system called its resolution
   - Precision
+    - 
   - Accuracy
   - Settling Time
