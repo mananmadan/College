@@ -22,4 +22,6 @@
 - ![ar](ar.jpg)
 
 ## Problem
-- 
+- ![prob1](prob1.jpg)
+- Solve using Max Min
+- Solve using Max Product
