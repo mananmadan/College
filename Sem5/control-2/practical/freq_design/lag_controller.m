@@ -11,7 +11,7 @@ k = 600
 a = 0.05
 t = 700
 numlag = [a*t 1];
-denlag = a*[t 1];
+denlag = a*[t 1];ee
 newnum = conv(num,numlag)
 newden = conv(den,denlag)
 bode(k*newnum,newden)

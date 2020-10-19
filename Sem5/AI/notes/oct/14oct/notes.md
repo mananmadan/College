@@ -21,10 +21,12 @@
 ## Graphical Techniques of Inferences
 - Mamdani System 
 - ![mamdani](mamdani.jpg)
+   - low accuracy , high interpratablility
    - Max Min
    - Max Product
 - ![grph_mam](grph_mam.jpg)
 - Sugeno
+  - high accuracy , low interpratablility
   - ![sugeno](sugeno.jpg)
 - Tsukamoto Model
   - ![sukamoto](sukamoto.jpg)
