@@ -1,8 +1,11 @@
 from sys import maxsize 
 from itertools import permutations
 V = 4
- 
 # implementation of traveling Salesman Problem 
+## TODO
+# Other Approach
+# Store the path
+
 def travellingSalesmanProblem(graph, s): 
  
     # store all vertex apart from source vertex 
@@ -28,33 +31,15 @@ def travellingSalesmanProblem(graph, s):
  
         # update minimum 
         min_path = min(min_path, current_pathweight) 
-         
+    
     return min_path 
-
-paths = []
-def dfs(node, graph, visited, cost):
- if len(visited) == 4: #all 4 vertices visited
-  print(visited,":",cost)
-  paths.append(visited)
-  return 
- for i in range(4):
-     if i not in visited:
-        visited.append(i)
-        cost = cost + graph[node][i]
-        dfs(i, graph, visited, cost)
-        cost = cost - graph[node][i]
-        visited.pop(len(visited)-1)
-
+ 
+ 
 # Driver Code 
-def main(): 
+if __name__ == "__main__": 
+ 
     # matrix representation of graph 
     graph = [[0, 10, 15, 20], [10, 0, 35, 25], 
             [15, 35, 0, 30], [20, 25, 30, 0]] 
     s = 0
     print(travellingSalesmanProblem(graph, s))
-    
-    visited = []
-    dfs(0,graph, visited, 0)
-    print(paths)
-
-main()
