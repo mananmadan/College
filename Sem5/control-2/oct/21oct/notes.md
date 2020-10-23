@@ -13,4 +13,3 @@
 - ![ct3_extremal](ct3_extremal.jpg)
 
 - Rest See from the book
-
