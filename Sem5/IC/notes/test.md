@@ -18,4 +18,6 @@
 - Learning Algorithms
  - BPTT (Back Propagation Through time) ==> Done
  - RTRL (Real Time Recurrent Learning)
+   - Do from nptel vedios
+   - [nptel](https://nptel.ac.in/courses/108/104/108104049/)
 
