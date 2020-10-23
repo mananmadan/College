@@ -1,7 +1,9 @@
 from sys import maxsize 
 from itertools import permutations
 V = 4
- 
+paths = []
+min_cost = 1000
+
 # implementation of traveling Salesman Problem 
 def travellingSalesmanProblem(graph, s): 
  
@@ -31,11 +33,15 @@ def travellingSalesmanProblem(graph, s):
          
     return min_path 
 
-paths = []
+min_cost = 1000
 def dfs(node, graph, visited, cost):
+ global min_cost
+ global paths
  if len(visited) == 4: #all 4 vertices visited
-  print(visited,":",cost)
-  paths.append(visited)
+  if cost < min_cost :
+       #print(visited,":",cost)
+       paths = list(visited)
+       min_cost = cost
   return 
  for i in range(4):
      if i not in visited:
@@ -48,13 +54,13 @@ def dfs(node, graph, visited, cost):
 # Driver Code 
 def main(): 
     # matrix representation of graph 
+    global paths
     graph = [[0, 10, 15, 20], [10, 0, 35, 25], 
             [15, 35, 0, 30], [20, 25, 30, 0]] 
     s = 0
-    print(travellingSalesmanProblem(graph, s))
-    
+    #print(travellingSalesmanProblem(graph, s))
     visited = []
     dfs(0,graph, visited, 0)
-    print(paths)
+    print("Min path is:",paths,"And the cost is:",min_cost)
 
 main()
