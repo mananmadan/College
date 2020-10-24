@@ -2,7 +2,7 @@
 
 **
 Truth of the universal set T(X) = 1
-Trith of the null set T(phi) = 0
+Truth of the null set T(phi) = 0
 **
 
 ## Modus Ponen Deduction (T(P)= 1)
