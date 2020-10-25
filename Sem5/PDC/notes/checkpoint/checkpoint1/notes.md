@@ -23,38 +23,6 @@ Input--->|Process|--->Output
   - Measure the input and directly control it
 - ![FFFC](fffc.jpg)
 
-## Process Modelling
-- Basically Generating a mathematical model for the process in order to control it!
-
-### State Variables and Equations
-- State Variables
-  - These are independent quantities that describe the natural state of a given process
-- State Equation
-  - Then are the equations that describe the change in the states with time
-
-### Modelling of a STR
-- Before modelling , you should know certain things
-   - State Variables : h,T
-   - Output Variables : h,T 
-   - Input Variables : Q,F_i ==> manipulated
-                       T_i ==> disturbance
-  
-- Diagram
-   - ![diag](diag.jpg)
-
-- We will use 2 laws
-  - Balance of Material
-  - Balance of Energy
-
-- Balance of Material
-  - ![bl_mt](bl_mt.jpg)
-
-- Balance of energy
-  - ![bl_en](bl_en.jpg)
-
-- Final Equations
-  - ![fn_eq](fn_eq.jpg)
-
 ## Input Functions
 - When we define a model , we test it on some kind of inputs like
    - Step Input Function
@@ -96,7 +64,7 @@ Input--->|Process|--->Output
 ### Step Input Response
 - First order transfer function is
   - **Main Formula**
-  - $G_p(s) = Y(s)/X(s) = K_p/(T_p*s + 1)$
+  - $G_p(s) = \frac{Y(s)}{X(s)} = \frac{K_p}{T_p*s + 1}$
 - ![stp_rep](stp_rep.jpg)
 - Then do partial fractions
 - Taking inverse laplace
@@ -106,8 +74,8 @@ Input--->|Process|--->Output
 
 ### Steady State Gain(Kp)
 - time t = Tp
-- y(t)|t=tp  = AKp(1-e^(-1))
-- y(t)|t=tp = 0.632 * y(t)|t->inf
+- $y(t)|t=tp  = AKp(1-e^{-1})$
+- $y(t)|t=tp = 0.632 * y(t)|t->inf$
 - ![kp](kp.jpg)
 
 ### Time Constant(Tp)
