@@ -10,7 +10,7 @@
 - OUT 0
   - The reaction of the process will be given at the out pin
 
-## 4 targets for the Microprocessor
+### 4 targets for the Microprocessor
 - **Tagets : Location where it will read or write**
 - TARGETS
   - control word register

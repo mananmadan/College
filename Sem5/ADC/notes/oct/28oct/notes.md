@@ -7,3 +7,6 @@
 
 ## Quantization Noise
 - Resoltion will depend on $(V_r)/(2^n)$
+- Non - Linear Quantization is achieved in the 95 % region to reduce error
+
+## Overload Noise

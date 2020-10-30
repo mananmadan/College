@@ -29,3 +29,19 @@
 - Output variables
    - Wash Time
    - {Very Short , Medium , Large , Very Large}
+- First reprsent Graphically
+- And represent the equations
+- ![eqns](eqns.jpg)
+- We design the rules in the form of matrix for the equation
+  - ![rules](rules.jpg)
+- Now let's suppose we have the input of dirt = 60% and y = 70%
+- Now we will calculate the membership values from thest inputs
+- On the basis of these values , we will make an output table
+  - ![output](output.jpg)
+- First the rule base was defined linguistically
+- Now the rule base needs to be decided on the basis of the numerical values
+  - Basically put numerical values in linguistic variables
+- Now we will get the fuzzified output based on the rule base
+- Now this value will be duzzified on the basis of membership function of the
+o/p
+- This value will be the output

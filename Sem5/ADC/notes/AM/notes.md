@@ -59,6 +59,12 @@
 - Sam(t) --> SLD --> LPF --> m(t)
 - We would square it again and will get the ans
 
+## TODO
+----
+### Envolop Detector 
+### Synchronus Detector
+----
+
 **INTUITION : Carrier takes up 66.7% of energy of transmision even if the message is modulated at 100% , hence we want to be able to use other signal in order to reduce the energy wasted by the signal**
 -> Thus we have the double side band suppressed carrier
 
@@ -71,6 +77,7 @@
   - Here we do not have the impluse of A/2 magnitude as in the case of AM waves
 - Single Tone DSB-SC
   - ![sn_dsbsc](sn_dsbsc.jpg)
+- Power Distrubtion in DSB-SC signal
 - Generation
   - Balance Modulator
     - Use 2 AM Modulators with 180 degress phase shift
@@ -93,12 +100,30 @@
   - Hence we can infer that at the time of recieving
   - ![ssb](ssb.jpg)
   - it's general expression is $(A_c A_m)/2 * cos(2 \pi  (f_c + f_m))$
+  - $f_c + f_m$ is in the case , we are sending upper side band
+  - $f_c - f_m$ is in the case , we are sending lower side band
+- Single Tone SSB-SC
+  - Expression of SSB-SC if we use hilbert transform
+  - ![SSB-SC-gen](SSB-SC-gen.jpg)
 - Generation
   - Freq Distribution Method
     - Multiply to generate DSB and then bass though band pass filter to get the SSB signal
     - ![freq_dis](freq_dis.jpg)
     - ![freq_dis_mths](freq_dis_mths.jpg)
-- Analysis
-  - FLAG101
+
+ ## TODO 
 - Demodulation
-  - FLAG101
+
+### Power Saving comparision in case of DSB-SC and SSB-SC
+- **Note: all of this is only valid for input sin waves**
+- $P_t (total power) = P_c (carrier) + \frac{P_c * u^2}{4} (USB) + \frac{P_c * u^2}{4} (LSB) $
+
+- In case of DSB - SC
+  -  $\frac{P_c}{P_t} = \frac{P_c}{P_c(1 + u^2/2)} = \frac{2}{2 + u^2}$
+- In case of SSB - SC
+  - $\frac{P_c}{P_t} = \frac{P_c(1 + u^2/4)}{P_c(1 + u^2/2)} = \frac{4 + u^2}{4+ 2*u^2}$
+- Thus we are saving more power in the case of SSB - SC signal
+
+## TODO ?
+## Vestigal Side Band
+
