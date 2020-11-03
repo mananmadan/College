@@ -4,7 +4,7 @@
 PDC
 ---
 |Topic                                     |Status|Checkpoint|
-|------------------------------------------|------| 
+| ---------------------------------------- | ---- | -------- |
 |Incentives for chemical process Control   |Done|1|
 |Design aspects of process control system  |Done|1|
 |Hardware for process control system       |Done|1|
