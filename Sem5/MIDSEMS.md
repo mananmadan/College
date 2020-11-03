@@ -21,3 +21,31 @@ PI & PID controllers. Detailed comparison of PID controller algorithms. |||
 ---
 MPC
 ---
+|Topic                                     |Status|Checkpoint|
+| ---------------------------------------- | ---- | -------- |
+|Evolution of microprocessors and microcontrollers|Done|Bharat Academy Notes|
+|General Architectural Concepts                   |Done|Bharat Academy Notes|
+|memory devices and I/Os                          |Done|Bharat Academy Notes|
+|Pin signal assignments                           |Done|Bharat Academy Notes|
+|minimum and maximum mode                         |Done|Copy|
+|architecture                                     |Done|Bharat Academy Notes|
+|addressing modes                                 |Done|Bharat Academy Notes|
+|interrupts                                       |Done|Notes|
+|Types of instructions and their format and assembly language programming introduction
+
+---
+ADC
+---
+|Topic                                     |Status|Checkpoint|
+| ---------------------------------------- | ---- | -------- |
+|Signal Modulation | Done | Copy |
+|Fouriers Series and Transform | | |
+|AM , FM , PM | Done | Checkpoint1 and Checkpoint2 |
+
+------
+Control
+------
+- Unit1 is completely done
+- Focus on non-linearities (Numericals)
+
+
