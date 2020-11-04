@@ -1,5 +1,6 @@
 # Sallybus for Mid-Sems and how much is covered
 
+
 ---
 PDC
 ---
@@ -17,6 +18,7 @@ PDC
 PI & PID controllers. Detailed comparison of PID controller algorithms. |||
 |Derivative action on process output vs. error |||
 |Problems with propotional "kick" and reset "Wind up" |||
+- Focus on unit2 and unit-3
 
 ---
 MPC
@@ -32,6 +34,8 @@ MPC
 |addressing modes                                 |Done|Bharat Academy Notes|
 |interrupts                                       |Done|Notes|
 |Types of instructions and their format and assembly language programming introduction
+- Focus on 8087 MPC
+
 
 ---
 ADC
@@ -42,10 +46,11 @@ ADC
 |Fouriers Series and Transform | | |
 |AM , FM , PM | Done | Checkpoint1 and Checkpoint2 |
 
+
 ------
 Control
 ------
 - Unit1 is completely done
 - Focus on non-linearities (Numericals)
-
+- Also focus on UNIT3 -> Stability Methods and Liyapunov
 
