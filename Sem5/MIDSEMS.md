@@ -45,7 +45,7 @@ ADC
 |Signal Modulation | Done | Copy |
 |Fouriers Series and Transform | | |
 |AM , FM , PM | Done | Checkpoint1 and Checkpoint2 |
-
+- Random Processes
 
 ------
 Control
