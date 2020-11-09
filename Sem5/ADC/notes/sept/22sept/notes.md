@@ -19,7 +19,7 @@
   -  smaller---mean---higher
   -  $E[(x - E[x])^2]$ = variance
 - Stnd Deviation
-  - $(var)^(0.5)$ = SD
+  - ${var}^{0.5}$ = SD
 - Moment
 - Expected Values , Expectation
    - $\sum x.p_x(x)$ = Mean = E[x]
