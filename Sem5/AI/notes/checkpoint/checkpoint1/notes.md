@@ -1,5 +1,8 @@
 # Fuzzy
 
+## Topics Not Covered
+- fuzzy implications, approximate reasoning, systems based on fuzzy rules, fuzzy inference. Application of fuzzy-logic to engineering problems, Fuzzy Control Systems, fault diagnosis etc.
+
 ## Fuzzy and Crisp
 
 - Crisp Set 
@@ -119,7 +122,7 @@
   - Reflexivity
   - Symmetry
 
-### $/alpha$ cuts for fuzzy relations
+### $\alpha$ cuts for fuzzy relations
 - **Basically saying that if 2 elements are highly related then they are connected**
 - like defuzzification of fuzzy relations
 - certain value below which the value of the fuzzy is approximated to zero
@@ -128,11 +131,11 @@
 
 ## Similarity Methods in Matrices
 - Cosine Methods
-   - rij = $/sum{k=1}{m} x_ik x_jk$
-   - $(/sum{k=1}{m}(x_ik)^2 /sum{k=1}{m}(x_ik)^2)^(1/2)$
+   - rij = $\sum{k=1}{m} x_ik x_jk$
+   - $(\sum{k=1}{m}(x_{ik})^2 \sum{k=1}{m}(x_{ik})^2)^(1/2)$
 - Max-Min Methods
-   - $/sum{k=1}{m} min(x_ik,x_jk)$
-   - $/sum{k=1}{m} max(x_ik,x_jk)$
+   - $\sum{k=1}{m} min(x_{ik},x_{jk})$
+   - $\sum{k=1}{m} max(x_{ik},x_{jk})$
       - where i,j = 1,2 ......,n
 
 ## Convex Fuzzy Set
@@ -162,7 +165,26 @@
   - Max Membersip Function
      - Simply Replace the set with the max value
   - Centroid Average Method
-     - Integral uc(x).x.dx/Intergral uc(x).dx
+     - $\frac {\int u_c(x).x.dx}{\int u_c(x).dx}$
   - Weighted Average Method
      - Find the peak value in the set and where is the peak
      - weighted avg = (pk1*v1 + pk2*v2 + pk3*v3)/(v1+v2+v3)
+
+## Fuzzification
+- Real world crisp values are inherently fuzzy.
+- Because any reading from physical sensors can have error , which will form
+the part of the membership function
+- ![fuzzification](fuzzification.jpg)
+
+## Logic and Fuzzy System
+
+- **Prepositions:**
+  - Declarative Statements with a condition
+- **Compound Prepositions**
+  - Joining 2 or more prepositions makes them compound preposition
+  - Joining is done using logical connectives
+      - Disjunction
+      - Conjunction
+      - Negation
+      - Implication
+      - Equivalence

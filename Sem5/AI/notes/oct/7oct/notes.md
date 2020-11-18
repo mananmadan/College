@@ -54,7 +54,7 @@ Sols
 
 ## Realtions on Implications
 - Linguistic Rule1
-  - [Relation](Relation.jpg)
+  - ![Relation](Relation.jpg)
 - Linguistic Ruel2
   - ![r2](r2.jpg)
 

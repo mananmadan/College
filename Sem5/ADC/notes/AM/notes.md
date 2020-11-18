@@ -73,11 +73,15 @@
   - We will only transmit the USB and the LSB
   - We will not pass the carrier wave
   - Can be represented by $c(t) * m(t)$
+  - It's equation will be $ \frac{Ac * Am}{2} * (cos(2 * \pi  * (f_c - f_m) t)) * (cos(2 * \pi  * (f_c + f_m) t)) $
   - ![dsb_sc](dsb_sc.jpg)
   - Here we do not have the impluse of A/2 magnitude as in the case of AM waves
 - Single Tone DSB-SC
   - ![sn_dsbsc](sn_dsbsc.jpg)
 - Power Distrubtion in DSB-SC signal
+  - Power is only due to the presence of the side bands
+  - $\frac{{A_c * A_m}^2}{4^2} * 4$
+  - multiplied by 4 because there are 2 side bands , and inside the 2 have 4 peaks each of the given power  
 - Generation
   - Balance Modulator
     - Use 2 AM Modulators with 180 degress phase shift
@@ -119,11 +123,9 @@
 - $P_t (total power) = P_c (carrier) + \frac{P_c * u^2}{4} (USB) + \frac{P_c * u^2}{4} (LSB) $
 
 - In case of DSB - SC
-  -  $\frac{P_c}{P_t} = \frac{P_c}{P_c(1 + u^2/2)} = \frac{2}{2 + u^2}$
+  -  $\frac{P_s}{P_t} = \frac{P_c}{P_c(1 + u^2/2)} = \frac{2}{2 + u^2}$
+  - $P_s = Power Saved$
 - In case of SSB - SC
-  - $\frac{P_c}{P_t} = \frac{P_c(1 + u^2/4)}{P_c(1 + u^2/2)} = \frac{4 + u^2}{4+ 2*u^2}$
+  - $\frac{P_s}{P_t} = \frac{P_c(1 + u^2/4)}{P_c(1 + u^2/2)} = \frac{4 + u^2}{4+ 2*u^2}$
+  - $P_s = Power Saved$
 - Thus we are saving more power in the case of SSB - SC signal
-
-## TODO ?
-## Vestigal Side Band
-

@@ -24,8 +24,12 @@
    - The whole process is called inference
 
 - [inference-implication](https://in.mathworks.com/help/fuzzy/fuzzy-inference-process.html#:~:text=A%22consequent%20is%20a%20fuzzy,that%20are%20attributed%20to%20it.&text=The%20input%20for%20the%20implication,is%20implemented%20for%20each%20rule.)
-- Inference can be of 2 tyes 
+- Inference can be of 2 tyes
   - Mamdani
   - Sugeno
 
+## Sallybus
+- Fuzzy Logic: Crisp sets, fuzzy sets, fuzzy set operations, properties, membership functions, measures of fuzziness, fuzzification and defuzzification methods, fuzzy relations, operation on fuzzy relations, fuzzy numbers and arithmetic, fuzzy implications, approximate reasoning, systems based on fuzzy rules, fuzzy inference. Application of fuzzy-logic to engineering problems, Fuzzy Control Systems, fault diagnosis etc.
 
+## Not Covered in the notes
+- fuzzification methods,arithmetic operation on fuzzy numbers, fuzzy implications, approximate reasoning, systems based on fuzzy rules, fuzzy inference. Application of fuzzy-logic to engineering problems, Fuzzy Control Systems, fault diagnosis etc.
