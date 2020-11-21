@@ -1,0 +1,48 @@
+[System]
+Name='Washing_Machine'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Dirtiness'
+Range=[0 100]
+NumMFs=3
+MF1='Low':'trimf',[0 0 45]
+MF2='Medium':'trimf',[15 50 85]
+MF3='High':'trimf',[55 100 100]
+
+[Input2]
+Name='Grease'
+Range=[0 100]
+NumMFs=3
+MF1='Low':'trimf',[0 0 45]
+MF2='Medium':'trimf',[15 50 85]
+MF3='High':'trimf',[55 100 100]
+
+[Output1]
+Name='WashingTime'
+Range=[0 120]
+NumMFs=4
+MF1='Low':'trimf',[0 0 45]
+MF2='Medium':'trimf',[35 45 55]
+MF3='High':'trimf',[45 60 75]
+MF4='VeryHigh':'trimf',[65 120 120]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 1 (1) : 1
+1 3, 2 (1) : 1
+2 1, 1 (1) : 1
+2 2, 2 (1) : 1
+2 3, 3 (1) : 1
+3 1, 2 (1) : 1
+3 2, 3 (1) : 1
+3 3, 4 (1) : 1
