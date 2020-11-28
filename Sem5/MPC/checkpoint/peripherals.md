@@ -86,10 +86,14 @@ $C_{upper}$ and $C_{lower}$
 | 0  |  1  |  0 | -> COUNTER C2
 | 0  |  1  |  1 | -> CONTROL REGISTER -> specify control word on data bus
 
-## Control Word Format
+### Control Word Format
 - |SC1 | SC0 | RW1 | RW2 | M2 | M1 | M0 | BCD/Binary |
 
 - SC1 SC0  --> using this we will select a specific counter
 - RW1 and RW0 are used to decide the read - write operation
 - M2 and M1 and M0 are used to decide the operating modes of 8254
 - [control-word-format](https://www.geeksforgeeks.org/8254-control-word-operating-modes/)
+
+
+## Programmable Keyboard/Display Controller (8279)
+- 
