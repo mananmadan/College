@@ -33,7 +33,7 @@ without additional harware
 - It has 24 I/O pins that can be grouped in 2 8 bits parallel ports : A and
 B , with the remaining 8 bits into port C
 - Port C can be used as individual bits or can be used as 4 bit ports
-$C_upper$ and $C_lower$
+$C_{upper}$ and $C_{lower}$
 - 8255 Modes
   - I/O Modes (Mode 0 ,Mode 1 , Mode 2)
 - BSR Modes
@@ -59,3 +59,37 @@ $C_upper$ and $C_lower$
 
 ### Control Word
 - ![control-word](control-word.jpg)
+
+## 8254/8253
+**Programmable Interval Time (8254/8253)**
+
+### Diagram
+- ![8254](8254.png)
+
+### Decription
+- It is designed to solve the timing problems in 8085
+- It has 3 independent counters 
+  - Each capable of clock inputs upto 10MHz
+  - Size of each counter is 16bit
+  - It operates in +5V regulated power supply.
+
+- Counters Structure
+  - It has 2 inputs clock and gate and 1 output
+  - gate is used to enable or disable counting
+    - When any value of count is loaded gate is set to 1
+    - After every step , the value of count is decremented by 1 unit , until it becomes zero
+
+|CS~ | A1  | A0 |
+|----|-----|----|
+| 0  |  0  |  0 | -> COUNTER C0
+| 0  |  0  |  1 | -> COUNTER C1
+| 0  |  1  |  0 | -> COUNTER C2
+| 0  |  1  |  1 | -> CONTROL REGISTER -> specify control word on data bus
+
+## Control Word Format
+- |SC1 | SC0 | RW1 | RW2 | M2 | M1 | M0 | BCD/Binary |
+
+- SC1 SC0  --> using this we will select a specific counter
+- RW1 and RW0 are used to decide the read - write operation
+- M2 and M1 and M0 are used to decide the operating modes of 8254
+- [control-word-format](https://www.geeksforgeeks.org/8254-control-word-operating-modes/)
