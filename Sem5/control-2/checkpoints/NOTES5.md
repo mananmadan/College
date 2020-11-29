@@ -32,3 +32,4 @@
   linear system is marginally stable 
   - ![stepsfirstmethod](stepsfirstmethod.jpg)
 
+## Liyapunov Stability Theorem
