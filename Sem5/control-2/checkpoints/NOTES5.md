@@ -32,4 +32,16 @@
   linear system is marginally stable 
   - ![stepsfirstmethod](stepsfirstmethod.jpg)
 
+## Sighn Definiteness
+- 5 terms
+- ADD HERE
+
 ## Liyapunov Stability Theorem
+- Liyapunov's First Theorem --> uniformly asymtotically stable
+  - ![liyapunov](liyapunov.jpg)
+- Liyapunov's Second Theorem --> uniformly asymtotically stable in the large
+  - ![liyapunov](2theorem.jpg)
+- Instability Theorem --> Instability in the system
+  - ![instability](instability.jpg)
+
+### Final Steps
