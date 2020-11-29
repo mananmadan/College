@@ -1,5 +1,5 @@
 s = tf('s');
-w = 3.16; 
+w = 5; 
 hold on
 for i = 0.00:0.08:1.30
  zeta = i;  
