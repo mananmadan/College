@@ -34,8 +34,7 @@
 
 ## Sighn Definiteness
 - 5 terms
-- ADD HERE
-
+- ![sign-definiteness](sign-definiteness.jpg)
 ## Liyapunov Stability Theorem
 - Liyapunov's First Theorem --> uniformly asymtotically stable
   - ![liyapunov](liyapunov.jpg)
@@ -45,3 +44,13 @@
   - ![instability](instability.jpg)
 
 ### Final Steps
+- Merging all three we get the following steps
+ - Assume a positive V(x) function
+ - Determine the derivaive V(x) for the above function {here we will require derivatives of x1,x2.}
+ - Evaluate dv/dt along the trajectory by substituting for the derivates of x1 , x2 from the state equations
+ - check whether dv/dt is negative definite in the region where V(x) is positive definite.
+      - If this is true the LPVN'S first theorem will be true
+ - if not check whether dv/dt is atleast negative semi- definite
+- if dv/dt is negative semi-definite , verify whether dv/dt vanishes identically only at the origin by substituting the condition of dv/dt to vanish
+- Then if dv/dt vanishes only at the origin or dv/dt is negative definite , conclude the stability by either of the 2 theorems
+- if dv/dt is positive definite , then the equilibrium point at origin is unstable
