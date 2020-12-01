@@ -49,6 +49,8 @@
  - Mainly data bus is 8 bits in 8088
  - hence you can transfer 1 byte per cycle hence it is slower
  - queue size is of 4 bytes in 8088 , where as it is 6 bytes in 8086
+
+
 # Concepts
 
 Pipeling

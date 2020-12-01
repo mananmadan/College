@@ -96,4 +96,4 @@ $C_{upper}$ and $C_{lower}$
 
 
 ## Programmable Keyboard/Display Controller (8279)
-- 
+- [8279](https://www.youtube.com/watch?v=sd_k5W4YgME)
