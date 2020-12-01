@@ -1,11 +1,10 @@
 ## TODO
-- Data Transfer Instruction from My Notes
-- Max Min Mode from copy
-- Program Execution and Tranfer function at Page 54 bharat acharya PDF
-- Interrupts from my notes
-- also diff b/w 8085 and 8086 needed from pg 102?
-- difference b/w 8086 and 8088 from pg 103 bharat acharya
-
+- Data Transfer Instruction from My Notes [done]
+- Max Min Mode from copy 
+- Program Execution and Tranfer function at Page 54 bharat acharya PDF [done]
+- Interrupts from my notes [done]
+- difference b/w 8086 and 8088 from pg 103 bharat acharya [done]
+- peripherals from notes 
 
 # Facts to know!
 
@@ -26,9 +25,30 @@
     - Direction Flag
     - Interrupt Flag
     - Sign Flag
+- JMP
+    - It has 2 main branches:
+    - Near Branch
+     - Inter Segement Only IP has to be changed
+    - Far Branch
+     - Intra Segment Both CS and IP has to be changed
+- CALS
+   - It transfer the program control to a subroutine to another program with the intention of coming back
+   - 8086 first saves the address of the next instruction into the stack before branching to the sub-routine
+   - It also has two branches:
+     - Near Branch
+      - Program execution has changed to a subroutine inside the segement
+      - Intersegement
+     - Far Branch
+      - Intra Segement
 
+- Diff b/w JMP and CALL
+ - ![diff](diff.jpg)
 
-
+- Diff b/w 8086 and 8088
+ - ![diff_mpc](diff_mpc.jpg)
+ - Mainly data bus is 8 bits in 8088
+ - hence you can transfer 1 byte per cycle hence it is slower
+ - queue size is of 4 bytes in 8088 , where as it is 6 bytes in 8086
 # Concepts
 
 Pipeling
@@ -92,7 +112,7 @@ Memory Segementation
     - Devides the memory logically
     - Acess 1MB using 16-bit address
 - Disadvantage
-    - Overall Memory is 16*64kb , but at a time 4*64kb can be acessed
+    - Overall Memory is 16 * 64kb , but at a time 4*64kb can be acessed
 
 Memory Banking
 --------------
@@ -100,3 +120,4 @@ Memory Banking
 - ![banking](banking.jpg)
 - Advantages
  - This banking scheme allows to access two aligned memory locations from both banks simultaneously and process 16 bit data transfer.Memory banking doesn’t make it compulsory to transfer 16 bits, it facilitates the 16 bit data transfer.
+
