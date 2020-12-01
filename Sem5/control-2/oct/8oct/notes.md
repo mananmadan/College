@@ -34,7 +34,7 @@
 
 ## Check linearity for functional
 - ![eg_cl](check_func.jpg)
-- ![eg_func](eg_func.jpg)
+- ![eg_func](egfunc.jpg)
 
 ## Closeness of functions
 - Is based on the equilidian norm

@@ -33,4 +33,4 @@
 - Admissable Control --> when control trajectory satisfied the condition for optimal control
 
 - Performance Measure
-  - ![prfs_ms](prfs_ms.jgp)
+  - ![prfs_ms](prfs_ms.jpg)
