@@ -32,3 +32,14 @@ Jacketed CSTR
 - So the outer loop is called the primary loop and the inner loop is called the secondary loop.
 - We can calculate the transfer function of this system according to the block diagram one the gains are know to us
 
+## Feedforward control
+- Feedback control is the a form of *"compensatory control"*
+- Whereas feedforward control is a form of *"antecepatory control"*
+- Here the manipulated variable is changed before the change has happened into the system
+- ![HE-FF](HE-FF.jpg)
+
+- **Generalised Form of feedforward controller**
+- ![ff-block](ff-block.jpg)
+- on solving we can get the relation b/w diff Gains of the equation
+- final results we get
+- ![final](final.jpg)
