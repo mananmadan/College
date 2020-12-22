@@ -1,5 +1,5 @@
 ## Optimal Control
-*"find an admissable comtrol u which causes the system to follow an admissable
+*"find an admissable control u which causes the system to follow an admissable
 trajectory x that minimize performance measure"*
 
 ### Types of Problems in Optimal Control
