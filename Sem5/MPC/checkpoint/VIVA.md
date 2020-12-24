@@ -28,9 +28,9 @@
 - JMP
     - It has 2 main branches:
     - Near Branch
-     - Inter Segement Only IP has to be changed
+     - Inter Segement , Only IP has to be changed
     - Far Branch
-     - Intra Segment Both CS and IP has to be changed
+     - Intra Segment  , Both CS and IP has to be changed
 - CALS
    - It transfer the program control to a subroutine to another program with the intention of coming back
    - 8086 first saves the address of the next instruction into the stack before branching to the sub-routine
@@ -114,7 +114,7 @@ Memory Segementation
     - Devides the memory logically
     - Acess 1MB using 16-bit address
 - Disadvantage
-    - Overall Memory is 16 * 64kb , but at a time 4*64kb can be acessed
+    - Overall Memory is 16 * 64kb , but at a time 4 * 64kb can be acessed
 
 Memory Banking
 --------------

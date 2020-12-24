@@ -1,6 +1,6 @@
 # Topics Covered
-
 - Arithemetic Instructions
+
 
 ## Arithemetic Instructions
 
